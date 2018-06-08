@@ -1,4 +1,3 @@
-
 A Self Learning Project:
 
 MVC Architecture Dynamic Web Project on Eclipse.
