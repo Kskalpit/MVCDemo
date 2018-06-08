@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>MVCDemo</display-name>
+  <!--<welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>-->
+<display-name>MVCDemo</display-name>
+  <servlet>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>mvcdemo.controllers.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>LoginRegister</display-name>
+    <servlet-name>LoginRegister</servlet-name>
+    <servlet-class>mvcdemo.controllers.LoginRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginRegister</servlet-name>
+    <url-pattern>/LoginRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>SearchDatabase</display-name>
+    <servlet-name>SearchDatabase</servlet-name>
+    <servlet-class>mvcdemo.controllers.SearchDatabase</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchDatabase</servlet-name>
+    <url-pattern>/SearchDatabase</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>LogOut</display-name>
+    <servlet-name>LogOut</servlet-name>
+    <servlet-class>mvcdemo.controllers.LogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOut</servlet-name>
+    <url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+</web-app>

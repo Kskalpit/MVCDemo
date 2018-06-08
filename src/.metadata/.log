@@ -1,0 +1,10 @@
+!SESSION 2018-05-23 00:24:14.124 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2018-05-23 00:24:55.551
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/home/v-kalpit.sharma/Downloads/eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
